@@ -1,0 +1,125 @@
+
+body{
+  
+  min-width: 500px;
+  background: url("./x.jpg") no-repeat center center fixed; 
+  background-attachment: fixed;
+
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.data{
+  
+  height: inherit;
+  width: inherit;
+  position:absolute ;
+  float:left;
+  left:0;
+  top:0;
+}
+.mobile{
+ 
+
+  background-color: black;
+  height:10%;
+  width: 100%;
+  position: sticky;
+  
+  top: 0;
+  
+}
+
+
+.list-1{
+  
+  display: inline-block;
+  font-size: larger;
+  font-weight: 900;
+  font-family:  octopost;
+  color: white;
+  margin: 2vh 5vh;
+  padding:0;
+  z-index: 10;
+}
+.icon{
+  display: none;
+}
+@media screen and (max-width: 580px) {
+  .outer{
+    position: sticky;
+    top:-1px;
+  background: rgb(192, 189, 189);
+  margin: 0px;
+  
+  height: 8vh;
+}
+
+.icon{
+  
+  display: block;
+  position: fixed;
+  top:0;
+  margin: 2vh 0vh 2vh 0vh;
+  z-index: 11;
+  width:50%;
+}
+.bi-list{
+  cursor: pointer;
+  width:5vh;
+  height:5vh;
+
+}
+.icon :hover{
+  
+  width: 6vh;
+  
+  z-index:15;
+}
+.mtask{
+  height: 8%;
+  width: 100%;
+  position: absolute;
+  position: fixed;
+  top:0px;
+  background-color:grey;
+  z-index: 5;
+  
+}
+.show{
+  display: block;
+}
+.mobile{
+
+  display: none;
+  position: fixed;
+  box-sizing: border-box;
+  background-color:rgba(128, 128, 128, 0.753);
+  margin: 0;
+  width: 40vw;
+  height:100vh;
+  padding-top: 8vh;
+  z-index:5;
+  min-width: 140px;
+  
+}
+.list-1{
+  
+  
+  top:0;
+  display:block;
+  
+  font-size: larger;
+  font-weight: 900;
+  font-family:  octopost;
+  color:white;
+  margin: 2vh 5vh;
+  padding:0;
+  z-index: 10;
+}
+
+}
